@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="src/css/bootstrap.min.css" >
+    <link rel="stylesheet/less" type="text/css" href="src/less/styles.less" />
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <div class="home_body"></div>
+    <nav class="sidebar">
+        <img src="src/img/pro_logo.png" alt="logo">
+        <ul>
+            <a href="index.html"><i alt="home" class="menu_item fas fa-home"></i></a>
+            <a href="portfolio.html"><i alt="portfolio" class="menu_item fas fa-briefcase"></i></a>
+            <a href="about.html"><i alt="about" class="menu_item fas fa-user"></i></a>
+            <a href="contact.html"><i alt="contact" class="menu_item fas fa-envelope"></i></a>
+        </ul>
+    </nav>
+
+	<div class="page_body container">
+        <div class="row">
+            <h1 class="sub main_text col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">Hi, welcome to my website.</h1>
+        </div>
+    </div>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script>
+  $(window).on("load",function(){
+      $(".main_text").animate({
+          opacity:1,
+          marginTop:"96pt"
+      }, 1000, "swing")
+  });
+  </script>
+</body>
+</html>

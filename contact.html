@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="src/css/bootstrap.min.css" >
+    <link rel="stylesheet/less" type="text/css" href="src/less/styles.less" />
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <div class="contact_body"></div>
+    <nav class="sidebar">
+        <img src="src/img/pro_logo.png" alt="logo">
+        <ul>
+            <a href="index.html"><i alt="home" class="menu_item fas fa-home"></i></a>
+            <a href="portfolio.html"><i alt="portfolio" class="menu_item fas fa-briefcase"></i></a>
+            <a href="about.html"><i alt="about" class="menu_item fas fa-user"></i></a>
+            <a href="contact.html"><i alt="contact" class="menu_item fas fa-envelope"></i></a>
+        </ul>
+    </nav>
+
+	<div class="contact-layer container">
+        <div class="row">
+            <h1 class="head_text col-lg-12 col-md-12 col-sm-12 col-xs-12">Contact</h1>
+            <div class="contact-methods col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h4 class="head_text"><i class="contact-icons fas fa-mobile"></i> 559.974.6201</h4>
+                <h4 class="head_text"><i class="contact-icons fas fa-envelope"></i> aarontjdev@gmail.com</h4>
+                <a href="https://www.linkedin.com/in/aaron--jackson/"><h4 class="head_text"><i class="contact-icons fab fa-linkedin"></i> linkedin</h4></a>
+                <a href="https://twitter.com/AaronJay_"><h4 class="head_text"><i class="contact-icons fab fa-twitter"></i> twitter</h4></a>
+                <a href="https://github.com/AaronTJDev"><h4 class="head_text"><i class="contact-icons fab fa-github"></i> github</h4></a>
+            </div>
+        </div>
+    </div>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script>
+      $(window).on("load",function(){
+      $(".contact-methods").hide().fadeIn().animate({
+          marginTop:"96pt"
+      }, 760, "swing")
+  });
+  </script>
+</body>
+</html>

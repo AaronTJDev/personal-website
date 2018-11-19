@@ -1,0 +1,202 @@
+// Colors
+@neutral-darker:  #191E26;
+@neutral-dark:    #3A4053;
+@neutral-light:   #9396A1;
+@neutral-lighter: #EDEDEE;
+
+@green-darker:    #637D36;
+@green-dark:      #99C24C;
+@green-light:     #D8E7BE;
+
+@aqua-dark:       #41BBD9;
+@aqua-light:      #DCF1F7;
+
+@dim-blue-darker: #002835;
+@dim-blue-dark:   #016E90;
+@dim-blue-light:  #A2CAD6;
+
+@orange-dark:     #F09021;
+@orange-light:    #F6C173;
+
+@logo: "../img/pro_logo.png";
+@bg:   "../img/bg.jpg";
+
+body {
+    background:url("@{bg}");
+    background-position: 80% 20%;
+}
+
+.home_body {
+    background-color: @neutral-dark;
+    position: absolute;
+    z-index: 1;
+    height:150vh;
+    width:100%;
+    opacity: .8;
+}
+
+.portfolio_body {
+    background-color: @dim-blue-darker;
+    position: absolute;
+    z-index: 1;
+    height:150vh;
+    width:100%;
+    opacity: .8;
+}
+
+.proficiencies_body {
+    background-color: @neutral-darker;
+    position: absolute;
+    z-index: 1;
+    height:150vh;
+    width:100%;
+    opacity: .8;
+}
+
+.about_body {
+    background-color: @dim-blue-dark;
+    position: absolute;
+    z-index: 1;
+    height:150vh;
+    width:100%;
+    opacity: .8;
+}
+
+.contact_body {
+    background-color: @neutral-dark;
+    position: absolute;
+    z-index: 1;
+    height:150vh;
+    width:100%;
+    opacity: .8;
+}
+
+.sidebar {
+    background-color: @neutral-darker;
+    color: @neutral-lighter;
+    position: fixed;
+    width:48px;
+    height:100vh;
+    z-index: 4; 
+}
+.sidebar a {
+    color: @neutral-lighter;
+    transition: color .25s;
+}
+
+.sidebar a:hover {
+    color: @neutral-light;
+}
+
+.sidebar a:active {
+    color: @dim-blue-dark;
+}
+
+.sidebar img {
+    width:48px;
+    height:48px;
+    padding:0;
+}
+
+ul {
+    list-style: none;
+    padding:12px;
+    font-size: 24px;
+    text-align:center;
+}
+
+.menu_item {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.page_body {
+    position:relative;
+    color: @neutral-lighter;
+    z-index: 3;
+}
+
+.main_text {
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    opacity:0;
+}
+
+.head_text {
+    color: @neutral-lighter;
+    font-family: 'Trebuchet MS';
+    font-weight:500;
+}
+
+.sub {
+    margin-top: 192pt;
+}
+
+.pointer {
+    display: inline;
+    text-align: left;
+}
+
+.project-area {
+    position:relative;
+    z-index:3;
+}
+
+.project-link {
+    box-shadow: -4px 4px 8px #191E26;
+    margin-top:24pt;
+    padding:0;
+    transition:box-shadow .25s, bottom .25s, left .25s;
+    transition-timing-function: ease-out;
+    top:0;
+	left: 0;
+}
+
+.project-link:hover {
+    bottom:4pt;
+	left:4pt;
+	box-shadow: -4px 4px 24px @neutral-darker;
+}
+
+.img-box {
+    object-fit: cover;
+    object-position: center;
+    height:200px;
+    padding:0;
+}
+
+.tech {
+    background-color: @neutral-light;
+}
+
+.tech ul {
+    padding:0;
+    text-align: left;
+    font-size: 12pt;
+    color: @neutral-darker;
+}
+
+.about-layer {
+    position: relative;
+    z-index: 3;
+}
+
+.body_text {
+    color: @dim-blue-light;
+}
+
+.activities {
+    color:@dim-blue-light;
+    font-size: 14px;
+    text-align: left;
+}
+
+.contact-layer {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+}
+
+.contact-icons {
+    color: @orange-dark;
+}
